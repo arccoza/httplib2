@@ -261,7 +261,7 @@ Http Objects
    The *connection_type* is the type of connection object to use. The supplied
    class should implement the interface of httplib.HTTPConnection.
 
-   The return value is a tuple of (response, content), the first being and instance
+   The return value is a tuple of (response, content), the first being an instance
    of the :class:`Response` class, the second being a string that contains the
    response entity body.
 
